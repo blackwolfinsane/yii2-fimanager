@@ -1,0 +1,21 @@
+{
+    "name": "blackwolfinsane/yii2-fimanager",
+    "description": "Fish File Manger for Yii 2",
+    "type": "yii2-extension",
+    "keywords": ["file", "manager", "yii2", "extension", "module"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Bogdan K. Fedun",
+            "email": "delagics@gmail.com"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "*" 
+    },
+    "autoload": {
+        "psr-4": {
+            "blackwolfinsane\\fimanager\\": ""
+        }
+    }
+}
